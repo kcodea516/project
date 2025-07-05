@@ -1,11 +1,10 @@
 package pojo;
-
 public class Login {
     private int id;
     private String username;
     private String password;
 
-    public Login(String username,String password,String college,String department){
+    public Login(String username,String password){
         this.username=username;
         this.password=password;
 
